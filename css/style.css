@@ -27,3 +27,21 @@ body{
     color:rgba(189,189,189,1);
     font-weight:normal;
 }
+
+.loading__anim{
+
+    width:35px;
+
+    height:35px;
+
+    display:inline-block;
+
+    border:5px solid rgba(189,189,189,.25);
+
+    border-left-color:rgb(3,155,229);
+
+    border-top-color:rgb(3,155,229);
+
+    border-radius:50%;
+
+}
