@@ -1,63 +1,50 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
-    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
 }
 
 .loading{
-    max-width:50%;
-    text-align:center;
-    line-height:1.4;
-    font-size:1.2rem;
-    font-weight:bold;
+    max-width: 50%;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .loading__author{
-    display:block;
-    margin:0.6rem 0 2rem;
-    font-size:.9rem;
-    color:rgba(189,189,189,1);
-    font-weight:normal;
+    display: block;
+    margin: 0.6rem 0 2rem;
+    font-size: .9rem;
+    color: rgba(189,189,189,1);
+    font-weight: normal;
 }
 
 .loading__anim{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
 
-    width:35px;
+    border: 5px solid rgba(189,189,189,.25);
+    border-left-color: rgb(3,155,229);
+    border-top-color: rgb(3,155,229);
 
-    height:35px;
+    border-radius: 50%;
 
-    display:inline-block;
-
-    border:5px solid rgba(189,189,189,.25);
-
-    border-left-color:rgb(3,155,229);
-
-    border-top-color:rgb(3,155,229);
-
-    border-radius:50%;
-
+    animation: rotate 600ms linear infinite;
 }
 
 @keyframes rotate{
-
     to{
-
-        transform:rotate(1turn);
-
+        transform: rotate(1turn);
     }
-
-}
-
-.loading__anim{
-
-    animation:rotate 600ms linear infinite;
-
 }
