@@ -45,3 +45,19 @@ body{
     border-radius:50%;
 
 }
+
+@keyframes rotate{
+
+    to{
+
+        transform:rotate(1turn);
+
+    }
+
+}
+
+.loading__anim{
+
+    animation:rotate 600ms linear infinite;
+
+}
