@@ -14,3 +14,9 @@ Loading Screen wrote on HTML CSS
 ## Запуск
 
 Открыть файл index.html в браузере.
+
+## Deployment
+
+Проект можно открыть по этой ссылке
+
+- https://my-repository-virid-kappa.vercel.app/
