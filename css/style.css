@@ -1,9 +1,29 @@
 *{
-
     margin:0;
-
     padding:0;
-
     box-sizing:border-box;
+}
 
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.loading{
+    max-width:50%;
+    text-align:center;
+    line-height:1.4;
+    font-size:1.2rem;
+    font-weight:bold;
+}
+
+.loading__author{
+    display:block;
+    margin:0.6rem 0 2rem;
+    font-size:.9rem;
+    color:rgba(189,189,189,1);
+    font-weight:normal;
 }
